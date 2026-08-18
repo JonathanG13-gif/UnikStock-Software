@@ -8,9 +8,9 @@
 
 ---
 
-**Autor:**
-**Fecha de la última versión:**
-**Repositorio:**
+**Autor: Jonathan Michel García Pacheco**
+**Fecha de la última versión: 18/08/2026**
+**Repositorio: Proyecto Ing Software 1**
 
 ---
 
@@ -18,9 +18,10 @@
 
 *Instrucción: nombre del sistema y qué hace, en un párrafo que cualquier persona entienda sin ser del área. Si necesitas usar una palabra técnica para explicarlo, todavía no está listo.*
 
-**Nombre del sistema:**
+**Nombre del sistema: Unik Stock**
 
-**Descripción:**
+**Descripción: UnikStock es un sistema que ayuda al dueño de una tienda de ropa y accesorios a saber en todo momento qué productos tiene disponibles, en qué tallas o variantes, y cuáles se están agotando. En lugar de recordar de memoria o revisar físicamente el estante cada vez que llega un cliente, el dueño consulta el sistema desde su celular o computadora y sabe al instante qué hay y qué falta reabastecer.
+**
 
 ---
 
@@ -28,21 +29,22 @@
 
 *Instrucción: qué problema resuelve, a quién le sirve y, muy importante, qué hace esa gente hoy para arreglárselas sin el sistema. Esa última parte es la que revela el problema real.*
 
-**El problema:**
+**El problema: Cuando una tienda maneja productos muy distintos entre sí (ropa con tallas, relojes con modelos, collares y gorras con variantes de color), es fácil perder el control de cuánto queda de cada cosa, vender algo que ya no existe en esa talla o color, o descubrir que un producto se agotó hasta que un cliente lo pide.
+**
 
 **Cómo se resuelve hoy sin el sistema:**
 
-**Usuarios del sistema:**
+**Usuarios del sistema: Revisando físicamente el perchero o la vitrina, o llevando cuentas sueltas en el celular o una libreta, lo cual se vuelve poco confiable cuando hay muchas categorías de producto con variantes distintas cada una (talla en ropa, color en gorras, modelo en relojes).
+**
 
 | Tipo de usuario | Qué necesita del sistema | Qué le preocupa |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+|Dueño/administrador |Ver el inventario completo por categoría, registrar mercancía nueva, ver qué se vendió y qué se está agotando |Que capturar un producto nuevo no sea tedioso, dado que cada categoría tiene datos distintos (talla vs. modelo vs. color) |
+|Vendedor/encargado de mostrador |Registrar una venta rápido y saber si hay una talla o color disponible sin ir a revisar físicamente |Que el sistema no lo obligue a llenar muchos campos cuando el cliente ya está esperando en caja |
 
 *Instrucción: necesitas al menos dos tipos de usuario con necesidades distintas. Si los dos quieren exactamente lo mismo, probablemente sean el mismo usuario.*
 
-**Un conflicto entre usuarios:**
+**Un conflicto entre usuarios: El dueño quiere que cada producto tenga toda su variante bien especificada (talla, color, modelo) para saber exactamente qué reabastecer, pero el vendedor quiere vender rápido sin tener que buscar entre muchas opciones parecidas. Más detalle en el catálogo ayuda al control, pero puede hacer más lenta la venta en mostrador.**
 
 *Instrucción: describe algo que un usuario quiera y que a otro le estorbe. Ahí está tu primera decisión de diseño real.*
 
