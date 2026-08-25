@@ -54,6 +54,19 @@
 
 *Instrucción: lo que escribes en "fuera del alcance" es lo que después evita que el proyecto crezca sin control. Sé específico: "reportes" no dice nada, "reportes de ventas mensuales exportables a PDF" sí.*
 
+Cinco cosas que el sistema sí hace (verbos verificables)
+Registra cada producto nuevo con su categoría, variante (talla, color o modelo) y precio.
+Descuenta automáticamente el stock de la variante correspondiente cuando se captura una venta.
+Muestra la cantidad disponible de cada variante de producto en tiempo real.
+Marca visualmente (por ejemplo con un color de alerta) cualquier variante cuyo stock caiga por debajo del mínimo definido para ella.
+Lista el historial de ventas realizadas en un día o rango de fechas específico.
+
+
+Tres cosas que el sistema explícitamente no hace
+No cobra ni procesa pagos con tarjeta o transferencia.
+No genera facturas electrónicas (CFDI).
+No publica un catálogo en línea donde los clientes puedan comprar directamente.
+
 ### Dentro del alcance
 
 -
