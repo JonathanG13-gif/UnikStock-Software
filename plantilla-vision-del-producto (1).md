@@ -54,7 +54,7 @@
 
 *Instrucción: lo que escribes en "fuera del alcance" es lo que después evita que el proyecto crezca sin control. Sé específico: "reportes" no dice nada, "reportes de ventas mensuales exportables a PDF" sí.*
 
-Cinco cosas que el sistema sí hace (verbos verificables)
+###Cinco cosas que el sistema sí hace (verbos verificables)
 
 Registra cada producto nuevo con su categoría, variante (talla, color o modelo) y precio.
 
@@ -69,13 +69,23 @@ Lista el historial de ventas realizadas en un día o rango de fechas específico
 
 
 
-Tres cosas que el sistema explícitamente no hace
+###Tres cosas que el sistema explícitamente no hace
 
 No cobra ni procesa pagos con tarjeta o transferencia.
 
 No genera facturas electrónicas (CFDI).
 
 No publica un catálogo en línea donde los clientes puedan comprar directamente.
+
+
+###Razón de una exclusión
+
+No genera facturas electrónicas porque eso requiere conectarse a un proveedor certificado por el SAT y cumplir reglas fiscales específicas — es un proyecto de integración aparte que no aporta al problema central, que es simplemente saber qué hay en existencia y qué se ha vendido.
+
+###Funcionalidad futura (no requisito de este semestre)
+
+Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "quien compró esta gorra también suele llevar este collar") para ayudar a vender más por cliente, casi como una recomendación automática de outfit según el estilo. Es una idea de valor agregado interesante, pero implica análisis de datos históricos de venta que no cabe en el alcance de este semestre — queda anotada como idea futura, no como requisito.
+
 
 ### Dentro del alcance
 
