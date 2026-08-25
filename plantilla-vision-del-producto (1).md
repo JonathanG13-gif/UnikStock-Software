@@ -67,6 +67,8 @@ Marca visualmente (por ejemplo con un color de alerta) cualquier variante cuyo s
 Lista el historial de ventas realizadas en un día o rango de fechas específico.
 
 
+
+
 Tres cosas que el sistema explícitamente no hace
 
 No cobra ni procesa pagos con tarjeta o transferencia.
