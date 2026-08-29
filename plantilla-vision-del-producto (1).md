@@ -89,48 +89,48 @@ Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "
 
 ### Dentro del alcance
 
--
--
--
--
+- Registro de productos por categoría (ropa, relojes, collares, gorras) con nombre, categoría, variante (talla/color/modelo), precio y cantidad en stock
+- Registro de ventas (descuenta del stock automáticamente según la variante vendida)
+- Alerta visual cuando una variante de producto baja de cierto nivel mínimo
+- Vista de historial de ventas por día
 
 ### Explícitamente fuera del alcance
 
--
--
--
+- Facturación electrónica / CFDI
+- Tienda en línea con carrito de compras
+- Reportes contables o de impuestos
 
 **Por qué queda fuera:**
 
 *Instrucción: para al menos una de las exclusiones, explica la razón. Puede ser tiempo, complejidad, o que no aporta al problema central.*
 
----
+ La tienda en línea con carrito de compras implica manejo de pagos, envíos y catálogo público, lo cual es un proyecto completo aparte; el objetivo aquí es únicamente resolver el control de inventario de la tienda física, no crear un canal de venta nuevo.
+
 
 ## 4. Tipo de sistema y restricciones
 
 *Instrucción: identifica de qué tipo es tu sistema y qué te obliga a garantizar ese tipo. Un sistema de información y un sistema crítico no se diseñan igual.*
 
-**Tipo de sistema:**
+**Tipo de sistema: De información**
 
 *(De información · Embebido · Crítico · Web y SaaS · De datos y análisis)*
 
-**Por qué es de ese tipo:**
+**Por qué es de ese tipo: El sistema no controla hardware ni requiere tiempo real; su función central es capturar, almacenar y mostrar información (inventario y ventas por categoría) para apoyar la decisión humana de reabastecer o no un producto.**
 
-**Atributos de calidad que impone:**
+**Atributos de calidad que impone: Usabilidad y Flexibilidad de datos**
 
 | Atributo | Por qué importa en mi caso | Qué pasa si no se cumple |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+|Usabilidad |Se usa en mostrador, entre cliente y cliente, con productos de categorías muy distintas que capturar rápido |Si registrar un producto nuevo es lento o confuso, terminarás sin actualizar el inventario y perderá utilidad |
+|Flexibilidad de datos |Cada categoría tiene variantes distintas (talla en ropa, modelo en relojes, color en gorras y collares) |Si el sistema solo soporta un tipo de variante, no podrás registrar bien todas las categorías del negocio |
 
 **Reglas de negocio que ya identifiqué:**
 
 *Instrucción: reglas que no son obvias desde fuera y que alguien que conoce el dominio tendría que explicarte. Si no encuentras ninguna, tu caso puede ser demasiado simple.*
 
-1.
-2.
-3.
+1. Un mismo producto (por ejemplo, una playera) puede existir en varias tallas y/o colores, y cada combinación se controla como stock independiente, no como un solo número general.
+2. El nivel mínimo de stock para avisar reabastecimiento no es igual para todas las categorías: un reloj de edición limitada puede tener mínimo de 1 unidad, mientras que una gorra básica puede tener mínimo de 5.
+3. Una venta no debe poder registrarse si deja el stock de esa variante específica en negativo, para evitar errores de conteo.
 
 ---
 
