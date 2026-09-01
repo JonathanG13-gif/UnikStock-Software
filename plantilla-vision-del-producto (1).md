@@ -149,11 +149,11 @@ Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "
 
 **Alternativa 1:cascada**
 
-*Por qué la descarté:Exige tener todos los requisitos definidos y congelados desde el inicio, pero al manejar categorías de producto tan variadas (ropa, relojes, collares, gorras), es muy probable que los requisitos de captura se ajusten una vez que el sistema esté en uso real; con cascada habría que rehacer fases completas cada vez.*
+*Por qué la descarté:Exige tener todos la mayoria de los requisitos definidos y congelados desde el inicio y Si el alcance cambia a mitad de una fase de cascada, tendría que retroceder fases completas. pero al manejar categorías de producto tan variadas (ropa, relojes, collares, gorras), es muy probable que los requisitos de captura se ajusten una vez que el sistema esté en uso real; con cascada habría que rehacer fases completas cada vez.*
 
 **Alternativa 2:V model**
 
-*Por qué la descarté: Está diseñado para sistemas donde la verificación y validación formal son mas formales y las cuatro actividades ocurren una sola vez, en orden estricto. Cada fase produce un documento que se aprueba antes de pasar a la siguiente generando que tenga ms probabilidad de alguien audita o certifica el sistema. nadie audita ni certifica UnikStock, ese nivel de rigor de pruebas formales no tiene justificación aquí  sería mas desarrollo y temas para una herramienta interna de una sola tienda.*
+*Por qué la descarté: Está diseñado para sistemas donde la verificación y validación formal son mas presentes como en sistemas críticos y regulados, donde hay que demostrar con evidencia formal que cada requisito fue verificado.. Cada fase produce un documento que se aprueba antes de pasar a la siguiente. validar fase por fase podria ser mas tedioso, ese nivel de pruebas formales no tiene mucho uso aquí sería mas tedioso para una herramienta interna de una sola tienda.*
 
 ---
 
