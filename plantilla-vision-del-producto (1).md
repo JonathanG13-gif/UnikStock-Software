@@ -44,7 +44,7 @@
 
 *Instrucción: necesitas al menos dos tipos de usuario con necesidades distintas. Si los dos quieren exactamente lo mismo, probablemente sean el mismo usuario.*
 
-**Un conflicto entre usuarios: El dueño quiere que cada producto tenga toda su variante bien especificada (talla, color, modelo) para saber exactamente qué reabastecer, pero el vendedor quiere vender rápido sin tener que buscar entre muchas opciones parecidas. Más detalle en el catálogo ayuda al control, pero puede hacer más lenta la venta en mostrador.**
+**Un conflicto entre usuarios: Los vendedores por querer vender rapido se les olvida o como tal no registran la venta haciendo que el inventario en el sistema se mueva y el dueño tenga los datos de manera incorrecta.**
 
 *Instrucción: describe algo que un usuario quiera y que a otro le estorbe. Ahí está tu primera decisión de diseño real.*
 
@@ -71,9 +71,9 @@ Lista el historial de ventas realizadas en un día o rango de fechas específico
 
 ###Tres cosas que el sistema explícitamente no hace
 
-No cobra ni procesa pagos con tarjeta o transferencia.
+No genera una pagina web para clientes.
 
-No genera facturas electrónicas (CFDI).
+No genera facturas electrónicas.
 
 No publica un catálogo en línea donde los clientes puedan comprar directamente.
 
@@ -87,16 +87,16 @@ No genera facturas electrónicas porque eso requiere conectarse a un proveedor c
 Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "quien compró esta gorra también suele llevar este collar") para ayudar a vender más por cliente, casi como una recomendación automática de outfit según el estilo. Es una idea de valor agregado interesante, pero implica análisis de datos históricos de venta que no cabe en el alcance de este semestre — queda anotada como idea futura, no como requisito.
 
 
-### Dentro del alcance
+**Dentro del alcance**
 
 - Registro de productos por categoría (ropa, relojes, collares, gorras) con nombre, categoría, variante (talla/color/modelo), precio y cantidad en stock
 - Registro de ventas (descuenta del stock automáticamente según la variante vendida)
 - Alerta visual cuando una variante de producto baja de cierto nivel mínimo
 - Vista de historial de ventas por día
 
-### Explícitamente fuera del alcance
+**Explícitamente fuera del alcance**
 
-- Facturación electrónica / CFDI
+- Facturación electrónica
 - Tienda en línea con carrito de compras
 - Reportes contables o de impuestos
 
@@ -138,21 +138,21 @@ Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "
 
 *Instrucción: este apartado se trabaja en la semana 3, después de ver los modelos de desarrollo. La justificación pesa más que la elección: no hay un modelo correcto, hay uno defendible para tu caso.*
 
-**Modelo elegido:**
+**Modelo elegido:Incremental**
 
-**Por qué le conviene a este proyecto:**
+**Por qué le conviene a este proyecto:Soy solo una persona desarrollandolo y el cliente está disponible en todo momento para dar retroalimentación inmediata. Los requisitos base son claros (inventario y ventas), pero al manejar categorías tan distintas entre sí es probable que descubra ajustes necesarios sobre la marcha, una vez que se use el sistema en la tienda real. Un modelo incremental permite tener primero lo mínimo funcional (registrar producto y venta) y después ir sumando alertas y reportes sin detener el uso diario del sistema.**
 
 *Instrucción: argumenta con las características reales de tu caso. Estabilidad de los requisitos, disponibilidad del cliente, nivel de riesgo, tamaño del equipo, frecuencia de entregas esperada.*
 
 ### Alternativas descartadas
 
-**Alternativa 1:**
+**Alternativa 1:cascada**
 
-*Por qué la descarté:*
+*Por qué la descarté:Exige tener todos los requisitos definidos y congelados desde el inicio, pero al manejar categorías de producto tan variadas (ropa, relojes, collares, gorras), es muy probable que los requisitos de captura se ajusten una vez que el sistema esté en uso real; con cascada habría que rehacer fases completas cada vez.*
 
-**Alternativa 2:**
+**Alternativa 2:V model**
 
-*Por qué la descarté:*
+*Por qué la descarté: Está diseñado para sistemas donde la verificación y validación formal son mas formales (típico cuando alguien audita o certifica el sistema). nadie audita ni certifica UnikStock, ese nivel de rigor de pruebas formales no tiene justificación aquí  sería mas desarrollo y temas para una herramienta interna de una sola tienda.*
 
 ---
 
