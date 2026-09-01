@@ -122,8 +122,8 @@ Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "
 
 | Atributo | Por qué importa en mi caso | Qué pasa si no se cumple |
 |---|---|---|
-|Usabilidad |Se usa en mostrador, entre cliente y cliente, con productos de categorías muy distintas que capturar rápido |Si registrar un producto nuevo es lento o confuso, terminarás sin actualizar el inventario y perderá utilidad |
-|Flexibilidad de datos |Cada categoría tiene variantes distintas (talla en ropa, modelo en relojes, color en gorras y collares) |Si el sistema solo soporta un tipo de variante, no podrás registrar bien todas las categorías del negocio |
+|Usabilidad |Se usa en mostrador, entre cliente y cliente, con productos de categorías muy distintas que capturar rápido |Si registrar un producto nuevo es lento o confuso, se termina sin actualizar el inventario y perderá utilidad |
+|Flexibilidad de datos |Cada categoría tiene variantes distintas (talla en ropa, modelo en relojes, color en gorras y collares) |Si el sistema solo soporta un tipo de variante, no se puede registrar bien todas las categorías del negocio |
 
 **Reglas de negocio que ya identifiqué:**
 
