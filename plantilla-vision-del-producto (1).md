@@ -152,7 +152,7 @@ Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "
 
 **Alternativa 2:V model**
 
-*Por qué la descarté: Está diseñado para sistemas donde la verificación y validación formal son mas formales (típico cuando alguien audita o certifica el sistema). nadie audita ni certifica UnikStock, ese nivel de rigor de pruebas formales no tiene justificación aquí  sería mas desarrollo y temas para una herramienta interna de una sola tienda.*
+*Por qué la descarté: Está diseñado para sistemas donde la verificación y validación formal son mas formales y las cuatro actividades ocurren una sola vez, en orden estricto. Cada fase produce un documento que se aprueba antes de pasar a la siguiente generando que tenga ms probabilidad de alguien audita o certifica el sistema. nadie audita ni certifica UnikStock, ese nivel de rigor de pruebas formales no tiene justificación aquí  sería mas desarrollo y temas para una herramienta interna de una sola tienda.*
 
 ---
 
