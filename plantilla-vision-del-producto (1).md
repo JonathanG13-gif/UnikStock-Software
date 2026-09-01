@@ -115,7 +115,7 @@ Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "
 
 *(De información · Embebido · Crítico · Web y SaaS · De datos y análisis)*
 
-**Por qué es de ese tipo: El sistema no controla hardware ni requiere tiempo real; su función central es capturar, almacenar y mostrar información (inventario y ventas por categoría) para apoyar la decisión humana de reabastecer o no un producto.**
+**Por qué es de ese tipo: Su función central es capturar, almacenar y mostrar información (inventario y ventas por categoría) para apoyar la decisión humana de reabastecer o no un producto.**
 
 **Atributos de calidad que impone: Usabilidad y Flexibilidad de datos**
 
