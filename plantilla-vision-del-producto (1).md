@@ -71,11 +71,11 @@ Lista el historial de ventas realizadas en un día o rango de fechas específico
 
 ###Tres cosas que el sistema explícitamente no hace
 
-No genera una pagina web para clientes.
+No genera una pagina web para clientes donde se pueda comprar de manera directa.
 
 No genera facturas electrónicas.
 
-No publica un catálogo en línea donde los clientes puedan comprar directamente.
+No publica un catálogo en línea donde los clientes puedan ver lo que se tiene.
 
 
 ###Razón de una exclusión
