@@ -138,9 +138,9 @@ Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "
 
 *Instrucción: este apartado se trabaja en la semana 3, después de ver los modelos de desarrollo. La justificación pesa más que la elección: no hay un modelo correcto, hay uno defendible para tu caso.*
 
-**Modelo elegido:Incremental**
+**Modelo elegido:Prototipado Rapido**
 
-**Por qué le conviene a este proyecto:Soy solo una persona desarrollandolo y el cliente está disponible en todo momento para dar retroalimentación inmediata. Los requisitos base son claros (inventario y ventas), pero al manejar categorías tan distintas entre sí es probable que descubra ajustes necesarios sobre la marcha, una vez que se use el sistema en la tienda real. Un modelo incremental permite tener primero lo mínimo funcional (registrar producto y venta) y después ir sumando alertas y reportes sin detener el uso diario del sistema.**
+**Por qué le conviene a este proyecto:Soy solo una persona desarrollandolo y el cliente está disponible en todo momento para dar retroalimentación inmediata. Los requisitos base son claros (inventario y ventas), pero al manejar categorías tan distintas entre sí es probable que descubra ajustes necesarios sobre la marcha, y con esto tener una version desechable ayudaria a que de manera mas sencilla se puedan realizar los ajustes necesarios una vez que se use el sistema en la tienda real. Un modelo rapido permite tener primero lo mínimo funcional (registrar producto y venta) y después ir sumando alertas y reportes sin detener el uso diario del sistema.**
 
 *Instrucción: argumenta con las características reales de tu caso. Estabilidad de los requisitos, disponibilidad del cliente, nivel de riesgo, tamaño del equipo, frecuencia de entregas esperada.*
 
