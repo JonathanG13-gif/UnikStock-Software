@@ -112,6 +112,7 @@ Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "
 *Instrucción: identifica de qué tipo es tu sistema y qué te obliga a garantizar ese tipo. Un sistema de información y un sistema crítico no se diseñan igual.*
 
 **Tipo de sistema: De información**
+**Software a la medida: Se construye para un cliente específico que paga por él y define lo que necesita. El éxito se mide por si resuelve el problema de ese cliente.**
 
 *(De información · Embebido · Crítico · Web y SaaS · De datos y análisis)*
 
