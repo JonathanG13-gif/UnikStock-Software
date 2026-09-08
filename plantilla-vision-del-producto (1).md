@@ -80,11 +80,11 @@ No publica un catálogo en línea donde los clientes puedan ver lo que se tiene.
 
 ###Razón de una exclusión
 
-No genera facturas electrónicas porque eso requiere conectarse a un proveedor certificado por el SAT y cumplir reglas fiscales específicas — es un proyecto de integración aparte que no aporta al problema central, que es simplemente saber qué hay en existencia y qué se ha vendido.
+No genera facturas electrónicas porque eso requiere conectarse a un proveedor certificado por el SAT y cumplir reglas fiscales específicas es un proyecto de integración aparte que no aporta al problema central, que es simplemente saber qué hay en existencia y qué se ha vendido.
 
 ###Funcionalidad futura (no requisito de este semestre)
 
-Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "quien compró esta gorra también suele llevar este collar") para ayudar a vender más por cliente, casi como una recomendación automática de outfit según el estilo. Es una idea de valor agregado interesante, pero implica análisis de datos históricos de venta que no cabe en el alcance de este semestre — queda anotada como idea futura, no como requisito.
+Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "quien compró esta gorra también suele llevar este collar") para ayudar a vender más por cliente, casi como una recomendación automática de outfit según el estilo. Es una idea de valor agregado interesante, pero implica análisis de datos históricos de venta que no cabe en el alcance de este semestre  queda anotada como idea futura, no como requisito.
 
 
 **Dentro del alcance**
