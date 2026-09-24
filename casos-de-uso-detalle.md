@@ -4,7 +4,7 @@
 
 ## Lista de casos de uso (5 a 8, como pide la actividad)
 
-> ✅ Cubre: "Identifica los actores... Lista entre cinco y ocho casos de uso."
+> "Identifica los actores... Lista entre cinco y ocho casos de uso."
 
 **Actores:** Vendedor (encargado de mostrador), Dueño/administrador.
 
@@ -22,7 +22,7 @@ Prueba de cada nombre: al terminar cualquiera de estos, la persona (vendedor o d
 
 ## CU-01 · Registrar venta
 
-> ✅ Cubre: "Escribe completo el caso de uso más importante de tu sistema, con escenario principal y al menos dos flujos alternos" + "anota qué requisitos funcionales realiza."
+> "Escribe completo el caso de uso más importante de tu sistema, con escenario principal y al menos dos flujos alternos" + "anota qué requisitos funcionales realiza."
 
 Elegí este caso de uso porque es el que más se usa en el día a día y el que junta la mayoría de las reglas de negocio del sistema (descuento de stock, validación de que no quede en negativo).
 
