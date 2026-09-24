@@ -1,13 +1,12 @@
 # Especificación de requisitos — UnikStock
 
-> Este documento cubre el entregable **2. Especificación de requisitos** de la evaluación parcial. Cada sección trae una etiqueta con lo que cubre del checklist.
+
 
 ---
 
 ## 1. Propósito y alcance
 
-> ✅ Cubre: "Propósito y alcance, retomado de la Visión del producto."
-> (Ya lo tenía escrito, se copia tal cual de la Visión del producto de la Unidad 1.)
+> "Propósito y alcance, retomado de la Visión del producto."
 
 **Propósito:** Este documento define qué debe hacer UnikStock y bajo qué condiciones, para que me sirva de referencia mientras lo construyo y como criterio para saber si ya quedó bien. Va dirigido a mí mismo, porque soy el desarrollador y el dueño del negocio (Unik Syle) al mismo tiempo.
 
@@ -28,7 +27,7 @@
 
 ## 2. Usuarios y su contexto
 
-> ✅ Cubre: "Usuarios y su contexto, enriquecido con lo que salió de la entrevista."
+>  "Usuarios y su contexto, enriquecido con lo que salió de la entrevista."
 > (La tabla base ya la tenía; lo que agrego aquí es lo que confirmé en la entrevista, marcado abajo.)
 
 | Usuario | Qué hace hoy sin el sistema | Qué espera del sistema |
@@ -46,7 +45,7 @@
 
 ## 3. Requisitos funcionales
 
-> ✅ Cubre: "Requisitos funcionales con ficha completa: descripción, origen, prioridad, criterio de aceptación y relaciones."
+>  "Requisitos funcionales con ficha completa: descripción, origen, prioridad, criterio de aceptación y relaciones."
 > (La redacción de cada requisito ya la tenía de la sesión anterior; lo nuevo aquí es la ficha completa por requisito — Origen, Prioridad y Relaciones — que es lo que pide la actividad.)
 
 **RF-001 — Descontar stock al vender**
@@ -109,7 +108,7 @@
 
 ## 4. Requisitos no funcionales
 
-> ✅ Cubre: "Requisitos no funcionales agrupados por atributo de calidad, cada uno con su métrica."
+> "Requisitos no funcionales agrupados por atributo de calidad, cada uno con su métrica."
 > (Ya tenía identificados los atributos y la redacción; lo que faltaba y agrego ahora son los números concretos, usando lo que salió en la entrevista — catálogo de ~150 productos y máximo 2 usuarios al mismo tiempo.)
 
 **Usabilidad** — importa porque se usa en mostrador, entre cliente y cliente, con productos de categorías muy distintas que hay que capturar rápido.
@@ -132,7 +131,7 @@
 
 ## 5. Tabla de trazabilidad
 
-> ✅ Cubre: "Tabla de trazabilidad y registro de cambios."
+> "Tabla de trazabilidad y registro de cambios."
 
 | Requisito | Caso de uso que lo realiza |
 |---|---|
