@@ -6,7 +6,7 @@
 
 ## 1. Preguntas por tramo
 
-> ✅ Cubre: "Las preguntas organizadas por tramo: contexto, proceso actual, dolores, excepciones y verificación de supuestos."
+>  "Las preguntas organizadas por tramo: contexto, proceso actual, dolores, excepciones y verificación de supuestos."
 > (Estas preguntas ya las tenía redactadas de la sesión anterior, aquí solo las acomodé por tramo para que se vea la estructura que pide la actividad.)
 
 ### Tramo 1 — Contexto
@@ -41,7 +41,7 @@ Repasando las 7 preguntas de arriba: ninguna se contesta con un simple sí/no y 
 
 ## 2. Bitácora de la entrevista
 
-> ✅ Cubre: "Una bitácora breve de la entrevista: qué supuestos resultaron falsos, cuáles se confirmaron y qué apareció que no esperábamos."
+>  "Una bitácora breve de la entrevista: qué supuestos resultaron falsos, cuáles se confirmaron y qué apareció que no esperábamos."
 
 **Lo que se confirmó tal cual lo tenía pensado:**
 - Es una sola tienda física, sin ventas en línea ni otras sucursales.
@@ -59,7 +59,7 @@ Repasando las 7 preguntas de arriba: ninguna se contesta con un simple sí/no y 
 
 ## 3. Ficha de dominio entregada a mi dupla
 
-> ✅ Cubre: "La ficha de dominio que entregamos a nuestra dupla."
+>  "La ficha de dominio que entregamos a nuestra dupla."
 > (Esta ficha ya la tenía escrita de la sesión anterior, se deja igual.)
 
 **Ficha de dominio · Unik Syle**
