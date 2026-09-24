@@ -1,6 +1,6 @@
 # Casos de uso — UnikStock (detalle escrito)
 
-> Este archivo, junto con `casos-de-uso.drawio` y `casos-de-uso.png`, cubre el entregable **3. Diagrama de casos de uso**.
+
 
 ## Lista de casos de uso (5 a 8, como pide la actividad)
 
