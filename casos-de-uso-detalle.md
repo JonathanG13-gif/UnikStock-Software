@@ -2,7 +2,7 @@
 
 
 
-## Lista de casos de uso (5 a 8, como pide la actividad)
+## Lista de casos de uso 
 
 > "Identifica los actores... Lista entre cinco y ocho casos de uso."
 
