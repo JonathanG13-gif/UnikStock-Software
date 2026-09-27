@@ -1,0 +1,17 @@
+<mxfile host="app.diagrams.net" modified="2026-09-24T00:00:00.000Z" agent="Claude" version="24.0.0" type="device">
+  <diagram name="Consultar productos agotados" id="Consulta">
+    <mxGraphModel dx="900" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="860" pageHeight="300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sysbox" value="Sistema UnikStock" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeColor=#E8720C;fillColor=none;strokeWidth=2;verticalAlign=top;fontColor=#E8720C;fontStyle=1;fontSize=13;spacingTop=8;" vertex="1" parent="1"><mxGeometry x="220" y="40" width="440" height="220" as="geometry" /></mxCell>
+        <mxCell id="uc" value="Consultar productos
+agotados" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E8720C;fontColor=#E8720C;fontSize=12;" vertex="1" parent="1"><mxGeometry x="310.0" y="105.0" width="260" height="90" as="geometry" /></mxCell>
+        <mxCell id="actor1" value="Vendedor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalLabel=1;html=1;outlineConnect=0;fillColor=#666666;strokeColor=#666666;fontColor=#444444;fontStyle=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="100" y="110" width="30" height="60" as="geometry" /></mxCell>
+        <mxCell id="e1" style="endArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="actor1" target="uc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="actor2" value="Dueño / administrador" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalLabel=1;html=1;outlineConnect=0;fillColor=#666666;strokeColor=#666666;fontColor=#444444;fontStyle=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="720" y="110" width="30" height="60" as="geometry" /></mxCell>
+        <mxCell id="e2" style="endArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="actor2" target="uc"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
