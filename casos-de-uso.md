@@ -1,10 +1,8 @@
 # Casos de uso — UnikStock
 
-> Este archivo va junto a `casos-de-uso.drawio` y `casos-de-uso.png` en `docs/diagramas/`. Cubre el entregable **3. Diagrama de casos de uso**.
 
 ## Los casos de uso del diagrama y los requisitos funcionales que realizan
 
-> ✅ Cubre: "Entre cinco y ocho casos de uso, nombrados con verbo en infinitivo más objeto" y "La relación de cada caso de uso con los requisitos funcionales que realiza."
 
 **Actores:** Vendedor (encargado de mostrador) y Dueño/administrador.
 
@@ -18,14 +16,11 @@
 | CU-06 Configurar nivel mínimo de stock | Dueño/administrador | RF-007 |
 | CU-07 Consultar historial de ventas por día | Dueño/administrador | RF-008 |
 
-Los 8 requisitos funcionales de la especificación quedan cubiertos, y ningún caso de uso queda sin requisito detrás.
 
 ---
 
 ## Caso de uso más importante, escrito completo
 
-> ✅ Cubre: "Al menos un caso de uso escrito completo: actor, objetivo, precondición, escenario principal, dos o más flujos alternos y postcondición."
-> (Elegí este porque es el que más se usa en el día a día y el que junta las reglas más importantes del sistema.)
 
 ### CU-01 · Registrar venta
 
