@@ -3,8 +3,7 @@
 > **Plantilla del curso · Ingeniería de Software I · SIS3407**
 > Este documento es el primer entregable del semestre y la base de todo lo que viene después.
 > Se entrega completo en la **semana 4** y se presenta ante el grupo.
->
-> **Cómo usarla:** copia este archivo a tu repositorio como `docs/vision-del-producto.md`, borra las instrucciones en gris de cada apartado y escribe tu contenido en su lugar. Conserva los títulos.
+
 
 ---
 
@@ -16,7 +15,6 @@
 
 ## 1. Descripción del sistema
 
-*Instrucción: nombre del sistema y qué hace, en un párrafo que cualquier persona entienda sin ser del área. Si necesitas usar una palabra técnica para explicarlo, todavía no está listo.*
 
 **Nombre del sistema: Unik Stock**
 
@@ -27,7 +25,6 @@
 
 ## 2. Problema y usuarios
 
-*Instrucción: qué problema resuelve, a quién le sirve y, muy importante, qué hace esa gente hoy para arreglárselas sin el sistema. Esa última parte es la que revela el problema real.*
 
 **El problema: Cuando una tienda maneja productos muy distintos entre sí (ropa con tallas, relojes con modelos, collares y gorras con variantes de color), es fácil perder el control de cuánto queda de cada cosa, vender algo que ya no existe en esa talla o color, o descubrir que un producto se agotó hasta que un cliente lo pide.
 **
@@ -42,17 +39,13 @@
 |Dueño/administrador |Ver el inventario completo por categoría, registrar mercancía nueva, ver qué se vendió y qué se está agotando |Que capturar un producto nuevo no sea tedioso, dado que cada categoría tiene datos distintos (talla vs. modelo vs. color) |
 |Vendedor/encargado de mostrador |Registrar una venta rápido y saber si hay una talla o color disponible sin ir a revisar físicamente |Que el sistema no lo obligue a llenar muchos campos cuando el cliente ya está esperando en caja |
 
-*Instrucción: necesitas al menos dos tipos de usuario con necesidades distintas. Si los dos quieren exactamente lo mismo, probablemente sean el mismo usuario.*
 
 **Un conflicto entre usuarios: Los vendedores por querer vender rapido se les olvida o como tal no registran la venta haciendo que el inventario en el sistema se mueva y el dueño tenga los datos de manera incorrecta.**
-
-*Instrucción: describe algo que un usuario quiera y que a otro le estorbe. Ahí está tu primera decisión de diseño real.*
 
 ---
 
 ## 3. Alcance
 
-*Instrucción: lo que escribes en "fuera del alcance" es lo que después evita que el proyecto crezca sin control. Sé específico: "reportes" no dice nada, "reportes de ventas mensuales exportables a PDF" sí.*
 
 ###Cinco cosas que el sistema sí hace (verbos verificables)
 
@@ -102,19 +95,15 @@ Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "
 
 **Por qué queda fuera:**
 
-*Instrucción: para al menos una de las exclusiones, explica la razón. Puede ser tiempo, complejidad, o que no aporta al problema central.*
 
  La tienda en línea con carrito de compras implica manejo de pagos, envíos y catálogo público, lo cual es un proyecto completo aparte; el objetivo aquí es únicamente resolver el control de inventario de la tienda física, no crear un canal de venta nuevo.
 
 
 ## 4. Tipo de sistema y restricciones
 
-*Instrucción: identifica de qué tipo es tu sistema y qué te obliga a garantizar ese tipo. Un sistema de información y un sistema crítico no se diseñan igual.*
 
 **Tipo de sistema: De información**
 **Software a la medida: Se construye para un cliente específico que paga por él y define lo que necesita. El éxito se mide por si resuelve el problema de ese cliente.**
-
-*(De información · Embebido · Crítico · Web y SaaS · De datos y análisis)*
 
 **Por qué es de ese tipo: Su función central es capturar, almacenar y mostrar información (inventario y ventas por categoría) para apoyar la decisión humana de reabastecer o no un producto.**
 
@@ -127,7 +116,6 @@ Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "
 
 **Reglas de negocio que ya identifiqué:**
 
-*Instrucción: reglas que no son obvias desde fuera y que alguien que conoce el dominio tendría que explicarte. Si no encuentras ninguna, tu caso puede ser demasiado simple.*
 
 1. Un mismo producto (por ejemplo, una playera) puede existir en varias tallas y/o colores, y cada combinación se controla como stock independiente, no como un solo número general.
 2. El nivel mínimo de stock para avisar reabastecimiento no es igual para todas las categorías: un reloj de edición limitada puede tener mínimo de 1 unidad, mientras que una gorra básica puede tener mínimo de 5.
@@ -137,13 +125,11 @@ Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "
 
 ## 5. Ciclo de vida elegido
 
-*Instrucción: este apartado se trabaja en la semana 3, después de ver los modelos de desarrollo. La justificación pesa más que la elección: no hay un modelo correcto, hay uno defendible para tu caso.*
 
 **Modelo elegido:Agil**
 
 **Por qué le conviene a este proyecto:Soy solo una persona desarrollandolo y el cliente está disponible en todo momento para dar retroalimentación inmediata. Los requisitos base son claros (inventario y ventas), pero al manejar categorías tan distintas entre sí es probable que descubra ajustes necesarios sobre la marcha, En cada ciclo se especifica una porción pequeña del sistema, se diseña, se construye y se valida con el usuario.. Un modelo rapido permite tener primero lo mínimo funcional (registrar producto y venta) y después ir sumando alertas y reportes sin detener el uso diario del sistema.**
 
-*Instrucción: argumenta con las características reales de tu caso. Estabilidad de los requisitos, disponibilidad del cliente, nivel de riesgo, tamaño del equipo, frecuencia de entregas esperada.*
 
 ### Alternativas descartadas
 
@@ -156,18 +142,3 @@ Me encantaría que el sistema sugiera combinaciones de productos (por ejemplo, "
 *Por qué la descarté: Está diseñado para sistemas donde la verificación y validación formal son mas presentes como en sistemas críticos y regulados, donde hay que demostrar con evidencia formal que cada requisito fue verificado.. Cada fase produce un documento que se aprueba antes de pasar a la siguiente. validar fase por fase podria ser mas tedioso, ese nivel de pruebas formales no tiene mucho uso aquí sería mas tedioso para una herramienta interna de una sola tienda.*
 
 ---
-
-## Antes de entregar
-
-Reviso que el documento cumpla lo siguiente:
-
-- [ ] La descripción del apartado 1 se entiende sin ser del área
-- [ ] Hay al menos dos tipos de usuario con necesidades distintas
-- [ ] Identifiqué un conflicto real entre usuarios
-- [ ] El alcance dice qué queda fuera, no solo qué queda dentro
-- [ ] Las exclusiones son específicas, no genéricas
-- [ ] Identifiqué el tipo de sistema y al menos dos atributos de calidad
-- [ ] Anoté al menos tres reglas de negocio no obvias
-- [ ] Justifiqué el ciclo de vida contra dos alternativas descartadas
-- [ ] El documento está en mi repositorio y se puede leer desde el navegador
-- [ ] Borré todas las instrucciones en cursiva de la plantilla
