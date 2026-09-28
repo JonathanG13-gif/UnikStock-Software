@@ -1,12 +1,11 @@
 # Guion de entrevista — UnikStock
 
-> Este documento cubre el entregable **1. Guion de entrevista** de la evaluación parcial. Cada parte trae una etiqueta indicando qué punto del checklist cubre, para que las encuentres rápido.
 
 ---
 
 ## 1. Preguntas por tramo
 
-> ✅ Cubre: "Las preguntas organizadas por tramo: contexto, proceso actual, dolores, excepciones y verificación de supuestos."
+> Cubre: "Las preguntas organizadas por tramo: contexto, proceso actual, dolores, excepciones y verificación de supuestos."
 > (Se sigue la estructura de guion de la plantilla: apertura, contexto, proceso actual, dolores, excepciones, verificación de supuestos y cierre.)
 
 ### Tramo 1 — Apertura
@@ -50,7 +49,7 @@ Repasé las 8 preguntas de los tramos 2 al 5 y las 5 de verificación: ninguna s
 
 ## 2. Bitácora de la entrevista
 
-> ✅ Cubre: "Una bitácora breve de la entrevista: qué supuestos resultaron falsos, cuáles se confirmaron y qué apareció que no esperábamos."
+> Cubre: "Una bitácora breve de la entrevista: qué supuestos resultaron falsos, cuáles se confirmaron y qué apareció que no esperábamos."
 
 **Lo que se confirmó tal cual lo tenía pensado:**
 - Es una sola tienda física, sin ventas en línea ni otras sucursales.
@@ -68,7 +67,7 @@ Repasé las 8 preguntas de los tramos 2 al 5 y las 5 de verificación: ninguna s
 
 ## 3. Ficha de dominio entregada a mi dupla
 
-> ✅ Cubre: "La ficha de dominio que entregamos a nuestra dupla."
+> Cubre: "La ficha de dominio que entregamos a nuestra dupla."
 > (Esta ficha ya la tenía escrita de la sesión anterior, se deja igual.)
 
 **Ficha de dominio · Unik Syle**
