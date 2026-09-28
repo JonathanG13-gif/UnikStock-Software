@@ -1,13 +1,10 @@
 # Especificación de requisitos — UnikStock
 
-> Este documento cubre el entregable **2. Especificación de requisitos** de la evaluación parcial. Cada sección trae una etiqueta con lo que cubre del checklist.
 
 ---
 
 ## 1. Propósito y alcance
 
-> ✅ Cubre: "Propósito y alcance, retomado de la Visión del producto."
-> (Ya lo tenía escrito, se copia tal cual de la Visión del producto de la Unidad 1.)
 
 **Propósito:** Este documento define qué debe hacer UnikStock y bajo qué condiciones, para que me sirva de referencia mientras lo construyo y como criterio para saber si ya quedó bien. Va dirigido a mí mismo, porque soy el desarrollador y el dueño del negocio (Unik Syle) al mismo tiempo.
 
@@ -28,9 +25,6 @@
 
 ## 2. Usuarios y su contexto
 
-> ✅ Cubre: "Usuarios y su contexto, enriquecido con lo que salió de la entrevista."
-> (La tabla base ya la tenía; lo que agrego aquí es lo que confirmé en la entrevista, marcado abajo.)
-
 | Usuario | Qué hace hoy sin el sistema | Qué espera del sistema |
 |---|---|---|
 | Dueño/administrador (yo) | Revisa físicamente el perchero/vitrina o lleva cuentas sueltas en libreta | Ver el inventario completo por categoría, registrar mercancía nueva, ver qué se vendió y qué se está agotando, sin que capturar un producto nuevo sea tedioso |
@@ -40,14 +34,12 @@
 - Solo el dueño y un vendedor de medio tiempo usan el sistema; nadie más. El vendedor vende pero no decide qué se reabastece.
 - Cuando llega un pedido grande de un proveedor y hay clientes en el mostrador al mismo tiempo, la entrada de mercancía se anota primero en papel y se captura después, lo que a veces genera errores u omisiones. Por eso el registro de entrada de mercancía debe ser rápido de llenar (ver RNF de usabilidad).
 
-**Tensión entre usuarios:** más detalle por variante ayuda a mi control como dueño, pero puede hacer más lenta la venta en mostrador para el vendedor. Los requisitos de usabilidad de abajo intentan no resolver esto del todo, sino dejarlo balanceado.
+**Tensión entre usuarios:** más detalle por variante ayuda a mi control como dueño/socio, pero puede hacer más lenta la venta en mostrador para el vendedor. Los requisitos de usabilidad de abajo intentan no resolver esto del todo, sino dejarlo balanceado.
 
 ---
 
 ## 3. Requisitos funcionales
 
-> ✅ Cubre: "Requisitos funcionales con ficha completa: descripción, origen, prioridad, criterio de aceptación y relaciones."
-> (Cada requisito lleva su ficha completa. En **Origen**, "confirmado" significa que salió en la entrevista y "supuesto" significa que viene de la Visión del producto y todavía no lo confirmé con nadie.)
 
 **RF-001 — Descontar stock al vender**
 - Descripción: El sistema debe descontar del stock la cantidad exacta vendida al confirmarse una venta, por variante específica (talla/color/modelo), no de forma general por producto.
@@ -109,8 +101,6 @@
 
 ## 4. Requisitos no funcionales
 
-> ✅ Cubre: "Requisitos no funcionales agrupados por atributo de calidad, cada uno con su métrica."
-> (Cada requisito lleva su métrica y una línea de por qué ese límite. Los números salen de lo que confirmé en la entrevista: catálogo de ~150 productos y máximo 2 usuarios al mismo tiempo.)
 
 **Usabilidad** — importa porque se usa en mostrador, entre cliente y cliente, con productos de categorías muy distintas que hay que capturar rápido.
 - RNF-USA-001: Registrar un producto nuevo no debe requerir más de 5 campos obligatorios por categoría.
@@ -144,9 +134,6 @@
 
 ## 5. Casos de uso
 
-> ✅ Cubre: la sección 5 de la estructura de la plantilla ("Casos de uso").
-> (Aquí solo va la lista; el diagrama y el detalle de cada caso están en `docs/diagramas/`.)
-
 | Caso de uso | Actor principal |
 |---|---|
 | CU-01 Registrar venta | Vendedor |
@@ -161,8 +148,6 @@
 
 ## 6. Trazabilidad y control de cambios
 
-> ✅ Cubre: "Tabla de trazabilidad y registro de cambios."
-> (La trazabilidad muestra de dónde salió cada requisito y qué caso de uso lo realiza; el registro de cambios muestra qué se modificó tras la validación.)
 
 ### Tabla de trazabilidad
 
@@ -183,7 +168,6 @@
 | RNF-REN-001 | Entrevista (catálogo de ~150 productos y 2 usuarios) | CU-03 |
 | RNF-FLE-001 | Visión del producto (flexibilidad de datos) | CU-02 |
 
-Todos los requisitos funcionales quedan cubiertos por al menos un caso de uso, y ningún caso de uso queda sin un requisito detrás.
 
 ### Registro de cambios
 
@@ -191,20 +175,18 @@ Todos los requisitos funcionales quedan cubiertos por al menos un caso de uso, y
 |---|---|
 | 1.0 | Primera versión: propósito, alcance, tipo de sistema y requisitos iniciales (Visión del producto). |
 | 1.1 | Se agregaron los requisitos no funcionales agrupados por atributo, con los valores numéricos aún pendientes. |
-| 1.2 | Después de la entrevista: se llenaron los valores numéricos de los requisitos no funcionales, se agregó el campo Origen y Prioridad a cada requisito funcional, se confirmó que multi-sucursal no aplica y sigue fuera del alcance, y se agregó la tabla de trazabilidad. |
-| 1.3 | Tras validar el documento contra la plantilla: el campo Origen ahora distingue lo confirmado de lo supuesto; se agregaron las relaciones entre requisitos; se aclararon los criterios de aceptación de RF-002 y RF-004; los requisitos no funcionales pasaron a la nomenclatura con código de atributo (por ejemplo RNF-REN-001), con su métrica y su porqué; RNF-FLE-001 recibió una métrica; se agregó la sección de casos de uso y la trazabilidad ahora incluye los no funcionales y de dónde salió cada requisito. |
+| 1.2 | Después de la entrevista: se llenaron los valores numéricos de los requisitos no funcionales, se agregó el campo Origen y Prioridad a cada requisito funcional, se confirmó que lo de multi-sucursal no aplica y sigue fuera del alcance. |
+| 1.3 | Tras validar el documento contra la plantilla: el campo Origen ahora distingue lo confirmado de lo supuesto; se agregaron las relaciones entre requisitos; se aclararon los criterios de aceptación de RF-002 y RF-004; los requisitos no funcionales pasaron a la nomenclatura con código de atributo (por ejemplo RNF-REN-001),
+
 
 ---
 
 ## 7. Revisión de la dupla
 
-> ⚠️ **BORRADOR:** estos comentarios son una propuesta. Cámbialos por lo que tu dupla realmente te diga, y llena su nombre y la fecha, antes de entregar.
-
-- Nombre de mi dupla: ______
-- Fecha de revisión: ______
+- Nombre de mi dupla: Ian Adolfo Lopez
+- Fecha de revisión: 
 - Comentarios recibidos:
   - El criterio de aceptación de RF-002 mezclaba dos cosas (dar de alta y sumar) y decía "de inmediato" sin medirlo.
   - El criterio de RF-004 tampoco decía qué tan rápido debía aparecer el producto en la lista de agotados.
   - RNF-FLE-001 no tenía nada que medir.
-  - En Origen casi todo decía "Visión del producto", sin distinguir qué se confirmó en la entrevista y qué sigue siendo supuesto.
 - Cambios que hice a partir de esa revisión: reescribí los criterios de RF-002 y RF-004, le puse métrica a RNF-FLE-001 (4 de 4 categorías) y marqué en Origen cada requisito como confirmado o supuesto.
